@@ -2,7 +2,7 @@
 
 A simple and functional calculator built with vanilla HTML, CSS, and JavaScript. No frameworks, no libraries — just pure code.
 
-![Smart Calculator](/calculator.png)
+![Smart Calculator](Smart Calculator project/calculator.png)
 
 ---
 
