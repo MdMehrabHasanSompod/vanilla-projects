@@ -33,7 +33,6 @@ const handleClick = (event) => {
    if(gameOver) return;
    targetBox = event.target
    currentIndex = boxesArray.indexOf(targetBox)
-   console.log(currentIndex)
    fillBox()
 }
 
