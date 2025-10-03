@@ -2,7 +2,7 @@
 
 A classic Tic Tac Toe game built for the web — interactive, responsive, and running smoothly on modern browsers. This project demonstrates **DOM manipulation**, **event handling**, and **state management** with **vanilla JavaScript**.
 
-![Tic Tac Toe Screenshot](/tic-tac-toe.png)
+![Tic Tac Toe Screenshot](./tic-tac-toe.png)
 
 ---
 
@@ -29,4 +29,4 @@ A classic Tic Tac Toe game built for the web — interactive, responsive, and ru
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe.git
+git clone https://github.com/MdMehrabHasanSompod/vanilla-projects.git
