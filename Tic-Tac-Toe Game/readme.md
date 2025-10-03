@@ -2,7 +2,7 @@
 
 A classic Tic Tac Toe game built for the web — interactive, responsive, and running smoothly on modern browsers. This project demonstrates **DOM manipulation**, **event handling**, and **state management** with **vanilla JavaScript**.
 
-![Tic Tac Toe Screenshot](/tic-tac-toe.png)
+![Tic Tac Toe Screenshot](./tic-tac-toe.png)
 
 ---
 
