@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <meta name="author" content="Md. Mehrab Hasan Sompod"/>
+    <meta name="description" content="Tic Tac Toe game built with HTML, CSS, JavaScript. Simple project with core web languages"/>
+    <meta name="keywords" content="tic-tac-toe,web-game,simple frontend projects, core web projects, javaScript projects"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Tic-Tac-Toe</h1>
+            <p>Winning Counts</p>
+            <div class="winCountCon">
+            <p>👤 P1: <span id="playerOneWins"></span></p>
+            <p>👤 P2: <span id="playerTwoWins"></span></p>
+           </div>
+        <div class="tic-marks" id="ticMarksCon">
+         <div class="tic-box" onclick="handleClick(event)"></div>
+         <div class="tic-box" onclick="handleClick(event)"></div>
+         <div class="tic-box" onclick="handleClick(event)"></div>
+         <div class="tic-box" onclick="handleClick(event)"></div>
+         <div class="tic-box" onclick="handleClick(event)"></div>
+         <div class="tic-box" onclick="handleClick(event)"></div>
+         <div class="tic-box" onclick="handleClick(event)"></div>
+         <div class="tic-box" onclick="handleClick(event)"></div>
+         <div class="tic-box" onclick="handleClick(event)"></div>
+        </div>
+        <div class="messages">
+            <p>Match Result:</p>
+        <div id="messageCon">
+            
+        </div>
+        </div>
+        <div class="buttons" id="buttonCon">
+        <button class="button restart" onclick="restart()">Restart</button>
+        <button class="button clear-game" onclick="clearGame()">Clear Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
