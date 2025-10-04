@@ -9,11 +9,15 @@ const appendNum = (num) => {
 }
 
 const appendOperation = (operation) => {
-    if(currentNum === '') return;
-    if(!prevNum ===''){
-        calculate()
+    if (currentNum === '') return;
+
+    if (prevNum !== '' && currentOperation !== '') {
+        calculate();
+        prevNum = document.getElementById('result').value;
+    } else {
+        prevNum = currentNum;
     }
-    prevNum = currentNum;
+
     currentOperation = operation;
     currentNum = '';
     document.getElementById('result').value = `${prevNum} ${currentOperation}`;
