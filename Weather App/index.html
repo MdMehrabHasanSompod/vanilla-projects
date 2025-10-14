@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <meta name="description" content="A modern weather app that dynamically displays live weather data for your current location or any searched city">
+    <meta name="keywords" content="weather app, weather forecast, temperature, javascript project, frontend project">
+    <meta name="author" content="Md. Mehrab Hasan Sompod">
+    <link rel="shortcut icon" href="weather-img.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="./weather-img.svg" width="48px" alt="Weather Image" />
+        <h1>WEATHER APP</h1>
+      </div>
+      <div class="get-city">
+        <input type="text" id="city-input" placeholder="Enter city name..." />
+        <button class="city-weather-button">Get Weather</button>
+      </div>
+      <div class="weather-details">
+        <div class="city-details">
+          <h3 id="city-name"></h3>
+          <p id="date"></p>
+        </div>
+        <div class="temp">
+          <img src="" width="60px" class="weather-img" />
+          <p id="temperature"></p>
+        </div>
+        <div class="tempData">
+          <p id="minTemp"></p>
+          <p id="maxTemp"></p>
+        </div>
+        <div class="visibility-box">
+          <img src="./visibility_icon.png" width="33px" alt="" />
+          <p id="visibility"></p>
+        </div>
+        <div class="air-pressure-box">
+          <img src="./air_pressure.png" width="33px" alt="" />
+          <p id="air-pressure"></p>
+        </div>
+        <div class="humidity-box">
+          <img src="./humidity.png" width="33px" alt="" />
+          <p id="humidity"></p>
+        </div>
+        <div class="cloudDetails">
+          <img src="cloud.png" width="33px" alt="" />
+          <p id="cloudTotal"></p>
+        </div>
+        <div class="temp-details">
+          <p id="description"></p>
+          <p id="wind-speed"></p>
+        </div>
+        <div class="coord">
+          <p id="lon"></p>
+          <p id="lat"></p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <footer>
+      &copy; Developed By&nbsp;<img
+        src="mviot_logo.png"
+        width="24px"
+        alt=""
+      />&nbsp;<span>MVIOT PV</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
